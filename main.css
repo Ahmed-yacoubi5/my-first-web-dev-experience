@@ -1,0 +1,50 @@
+:root {
+    --green: #00FF00;
+    --black: #000000;
+    
+    
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--black);
+    font-family: helvetica;
+  }
+
+ul {
+    font-family: helvetica;
+    color : black;
+}
+li {
+    list-style: circle;
+    color : black;
+
+  }
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+
+  
+  .list {
+    list-style: square;
+  }
+  
+  #msg {
+    font-family: monospace;
+  }
+  .light-theme {
+    --bg: var(--green);
+    --fontColor: var(black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--black);
+  }
+  
+ 
